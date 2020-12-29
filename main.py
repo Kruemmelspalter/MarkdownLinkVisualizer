@@ -48,5 +48,4 @@ if __name__ == '__main__':
     graph.add_nodes_from(nodes)
     graph.add_edges_from(edges)
     networkx.draw_shell(graph, with_labels=True)
-#    networkx.draw_networkx_labels(graph, networkx.spring_layout(graph))
     matplotlib.pyplot.show()
